@@ -15,5 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        var ordenador1 = Ordenador("lenovo","5e5",Estado.NUEVO)
+        ordenador1.especificaciones.CPU = "lenovo"
     }
 }
