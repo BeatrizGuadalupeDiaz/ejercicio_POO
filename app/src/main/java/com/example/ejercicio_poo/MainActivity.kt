@@ -11,11 +11,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        var ordenador1 = Ordenador("lenovo","5e5",Estado.NUEVO)
-        ordenador1.especificaciones.CPU = "lenovo"
     }
 }
